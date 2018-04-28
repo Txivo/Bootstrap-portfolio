@@ -5,84 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+                       <!-- color schemes from website -->
+
+                       //        /*
+                       //        color:#4aaaa5;
+                       //        border-color: #454746;
+                       //        background-color:#eee;
+                       //        color:white;
+                       //        -webkit-text-stroke:px black ;
+                       //        border: 1px solid #ccc; 
+                       //        background-color: #4CAF50;
+                       //       background-color: #f2f2f2;
+                       //        */            
+
+        <!-- bootstrap cdn link -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <picture>
-        <source srcset="..." type="image/svg+xml">
-        <img src="..." class="img-fluid img-thumbnail" alt="...">
-      </picture>
+
+
+
+
 
     <title>About me</title>
 </head>
 <body>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
+    <div class="p-3 mb-2" style="background-color: #eee;">
+
+
+
+        <!-- contaniner -->
+
+
+        <div class="container">
+
+
+                <!-- logo image  -->
+
+                      <div class="row">
+                        
+                                <div class="col-md-10 offset-md-1">
+
+                                    <picture>
+                                        <source srcset="/Users/txivojuarezlap/Desktop/Bootstrap-portfolio/images/title2.png" type="image/svg+xml" class="row"; style="bg: #eee;" >
+                                        <img src="..." class="img-fluid img-thumbnail" alt="...">
+                                    </picture> 
+                                </div>
+                       
+                      </div>
+    
+                     <!-- biogrphy section/text -->
+            <nav class="navbar navbar-expand-lg" style="background-color: #4aaaa5;">
+                                                                  
+                    <span class="navbar-text" style="color: white">Biography</span>
+            </nav>
+                                                        
+                        <!-- profesional section-->
+                 <nav class="navbar navbar-light" style="background-color: #4aaaa5;">
+                                                       
+                                        <!-- profesional text -->
+
+                            <span class="navbar-text" style="color:white" >
+                                            Professional
+                            </span>
+                                                     
+                                                                        
+                                        <!-- Navbar content -->
+                              <nav class="navbar navbar-expand-md">
+                                 
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                              <div class="navbar-nav">
+                                                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                                                <a class="nav-item nav-link" href="#">Portfolio</a>
+                                                <a class="nav-item nav-link" href="#">Contact</a>
+                                                
+                                              </div>
+                                            </div>
+                                          </nav>                                       
+
+                                     <nav class="navbar navbar-expand-lg" style="background-color: #4aaaa5;">
+                                                                <!-- Level 1 biography -->
+                                          <div class="row">
+                                            <div class="col-sm-9">
+                                                    <span class="navbar-text" style="color: white">Biography</span>
+
+                                                                <!-- Level 2a Professional -->
+                                              <div class="row">
+                                                <div class="col-8 col-sm-6">
+                                                        <span class="navbar-text" style="color:white" > Professional</span>
+                                                </div>
+
+
+                                                                <!-- Level 2b Professional -->
+                                         <nav class="navbar navbar-expand-md">
+                                 
+                                               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                                     <span class="navbar-toggler-icon"></span>
+                                                </button>
+
+                                                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                        <div class="navbar-nav">
+                                                            <div class="col-4 col-sm-6">
+
+                                                                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                                                                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                                                                    <a class="nav-item nav-link" href="#">Contact</a>                                                                
+                                                  
+                                                             </div>
+                                                        </div>
+                                                    </div>
+                                          </div>                                 
+                      
+                    
+
+
+
+                                                       
+
+
+
+
+                                    
+        </div><!-- container closing div --> 
+    
+    </div><!-- bakgroud closing div -->
         
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Hidden brand</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            
-          </ul>
-          
-        </div>
-      </nav>
-
-
-
-
-
 </body>
 
 
